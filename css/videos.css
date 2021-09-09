@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(203, 249, 255);
+    font: normal 14pt Arial;
+}
+
+video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+img{
+    position: absolute;
+    display: block;
+    z-index: 1;
+    margin-top: -40%;
+}

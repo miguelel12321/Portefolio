@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Portefólio</title>
+</head>
+<body>
+    <h1>Miguel Silva</h1>
+
+    <div id="corpo">
+        <a href="violino.html">
+        <div id="img1">
+            <img width="320px"  src="img/violino_p.jpg" alt="CCV Violins" onmouseover="h1()" onmouseout="ho1()">
+            <figcaption id="fig1">CCV Violins Comercial</figcaption>
+        </div>
+        </a>
+        <a href="jaguar.html">
+        <div id="img2">
+            <img width="320px" src="img/jaguar_p.jpg" alt="Jaguar F-Type" onmouseover="h2()" onmouseout="ho2()">
+            <figcaption id="fig2">Jaguar F-Type Comercial</figcaption>
+        </div>
+        </a>
+        <a href="portugal.html">
+        <div id="img3">
+            <img width="320px" src="img/portugal_p.jpg" alt="Visit Portugal" onmouseover="h3()" onmouseout="ho3()">
+            <figcaption id="fig3">Visit Portugal Comercial</figcaption>
+        </div>
+        </a>
+        <a href="lili.html">
+            <div id="img4">
+                <img width="320px" src="img/lili_p.jpg" alt="Ducomentário Liliana Renascer" onmouseover="h4()" onmouseout="ho4()">
+                <figcaption id="fig4">Documentário sobre Liliana Soares</figcaption>
+            </div>
+            </a>
+        </div>
+
+    <footer>
+        Todos os vídeos aqui apresentados são trabalhos autorais, não receberam nenhum tipo de remoneração pela sua conceção.
+    </footer>
+            
+        <script>
+            var fig1 = document.getElementById('fig1')
+            var fig2 = document.getElementById('fig2')
+            var fig3 = document.getElementById('fig3')
+            var fig4 = document.getElementById('fig4')
+            var img1 = document.getElementById('img1')
+            var img2 = document.getElementById('img2')
+            var img3 = document.getElementById('img3')
+            var img4 = document.getElementById('img4')
+
+            function h1(){
+                fig1.style.opacity = '100%'
+            }
+            function ho1(){
+                fig1.style.opacity = '0%'
+            }
+
+            function h2(){
+                fig2.style.opacity = '100%'
+            }
+            function ho2(){
+                fig2.style.opacity = '0%'
+            }
+
+            function h3(){
+                fig3.style.opacity = '100%'
+            }
+            function ho3(){
+                fig3.style.opacity = '0%'
+            }
+            
+            function h4(){
+                fig4.style.opacity = '100%'
+            }
+            function ho4(){
+                fig4.style.opacity = '0%'
+            }
+        </script>
+
+</body>
+</html>
